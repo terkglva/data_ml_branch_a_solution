@@ -1,0 +1,24 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+node_modules/
+dist/
+build/
+
+# input files are provided separately
+data/
+*.csv
+*.json
+
+# generated databases / outputs
+*.db
+*.sqlite
+*.sqlite3
+outputs/*.csv
+outputs/*.png
